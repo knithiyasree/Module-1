@@ -11,11 +11,9 @@ To write a Python program for find Compound interest, and get the user input usi
 5. Terminate the program.
 
 ## PROGRAM
-```python
 # Reg.No-212223060188
 #Name-K.nithiyasree
 #Write your code here
-
 ```
 p = float(input())
 
@@ -26,7 +24,6 @@ r = float(input())
 ci =  p * (pow((1 + r / 100), t)) 
 
 print("Compound interest : {:.2f}".format(ci))
-```
 ```
 
 ## OUTPUT:
