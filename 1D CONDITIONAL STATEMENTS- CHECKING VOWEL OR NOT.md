@@ -1,31 +1,40 @@
-## Experiment No: 1d – Conditional Statements- Checking Vowel or not
+## Experiment No: 1d – Conditional Statements- Checking even or odd
 
 ## AIM  
-To Write a Python program to check whether the given character is a vowel or not using if..else statement
-## ALGORITHM  
+To Write a Python program to check whether the given  using number is Even number and it is lesser than or equal to 30 or not using nested if..else.
+## ALGORITHM 
 1. Begin the program.  
-2. Take a character input from the user
-3. Convert the character to lowercase
-4. Check if the lowercase character is one of the vowels: 'a', 'e', 'i', 'o', 'u'
-5. If it is a vowel, display "The given character is a vowel"
-6. Otherwise, display "The given character is NOT a vowel"
-4. Terminate the program.
+2. Read a number from the user.  
+3. Check if the number is even.  
+   3.1 If yes, check if the number ≤ 30.  
+       3.1.1 If yes, display "Even and ≤ 30".  
+       3.1.2 Else, display "Even but > 30".  
+   3.2 If no, display "Odd".  
+4. End the program.  
+
+
 
 ## PROGRAM
 ```python
-# Reg.No-
-# Name-
+# Reg.No-212223060188
+# Name-k.nithiyasree
 # Write your code here
 
-char = input("Enter a character: ")
-char_lower = char.lower()
-
-if char_lower in ['a', 'e', 'i', 'o', 'u']:
-    print("The given character is a vowel")
+n=int(input())
+if n%2==0:
+    print(f"{n} is an Even number")
+    if n<=30:
+        print(f"{n} is lesser than or equal to 30")
+    else:
+        print(f"{n} is greater than 30")
 else:
-    print("The given character is NOT a vowel")
+    print(f"{n} is NOT an Even number")
 ```
 
 ## OUTPUT
+<img width="792" height="287" alt="image" src="https://github.com/user-attachments/assets/50b7fdf2-a4bc-4d34-95eb-7424ae3ba3e5" />
 
-## RESULT
+
+
+## RESULT:
+Python program to check whether the given  using number is Even number and it is lesser than or equal to 30 or not using nested if..else has been executed successfully.
