@@ -1,26 +1,38 @@
-# Experiment No: 1c-Varibles and Expressions, Operators - Adding Two Complex Numbers
+# Experiment No: 1c-Varibles and Expressions, Operators - find Compound interest
 
 ## AIM
-To write a Python program for adding two complex numbers, and get the user input using the `eval()` function.
+To write a Python program for find Compound interest, and get the user input using the `eval()` function.
 
 ## ALGORITHM
 1. Begin the program.
-2. Use the `eval()` function to get two complex numbers as input from the user.
-3. Print the complex numbers entered by the user.
-4. Perform the addition of the two complex numbers using the `+` operator.
-5. Print the sum of the two complex numbers.
-6. Terminate the program.
+2. Use the `eval()` function to get input from the user.
+3. Enter the formula to find Compound interest.
+4. Print the Compound interest.
+5. Terminate the program.
 
 ## PROGRAM
 ```python
-# Reg.No-
-#Name-
+# Reg.No-212223060188
+#Name-K.nithiyasree
 #Write your code here
 
 ```
+p = float(input())
 
-## OUTPUT
+t = float(input())
+
+r = float(input())
+
+ci =  p * (pow((1 + r / 100), t)) 
+
+print("Compound interest : {:.2f}".format(ci))
+```
+```
+
+## OUTPUT:
+<img width="790" height="466" alt="image" src="https://github.com/user-attachments/assets/a2f62b48-d90b-46eb-b505-28feb0be3b3f" />
+
 
 
 ## RESULT
-Thus the python program for  adding two complex numbers has been implemented and executed successfully.
+Thus the python program for finding compound interest has been implemented and executed successfully.
